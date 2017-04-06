@@ -1,8 +1,36 @@
 /* put your code here*/
-p{
-	color:red;
+
+.linkGame, .linkWeb, .sectionWeb, .sectionGame{
+	height:500px;
+	background:black;
 }
 
-.fa-twitter{
-	color:black;
+/******************************************************************** 
+			             	^sectionWeb
+*********************************************************************/
+.sectionWeb{
+	background:#59ffcd;
+}
+
+/******************************************************************** 
+			             	^sectionGame
+*********************************************************************/
+.sectionGame{
+	background:#eeff3d;
+}
+
+/******************************************************************** 
+			             	^sectionFooter
+*********************************************************************/
+.sectionFooter{
+	height:50px;
+	background:#0f1419;
+	color:white;
+
+}
+
+.sectionFooter h2{
+	text-align:center;
+	font-weight:normal;
+	font-size:15px;
 }
