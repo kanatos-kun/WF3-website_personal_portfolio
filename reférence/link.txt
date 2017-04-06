@@ -16,3 +16,13 @@ ref_07.jpg :
 ref_08.jpg :
 
 http://programmerhasan.com/demos/daffodil/
+
+codepen :
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+waypoint_animation :
+https://codepen.io/hartless/pen/NGBMBB
+
+scroll arrow : 
+https://codepen.io/robooneus/pen/Aclqr
+
