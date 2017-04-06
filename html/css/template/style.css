@@ -1,7 +1,7 @@
 /* put your code here*/
 
 .linkGame, .linkWeb, .sectionWeb, .sectionGame{
-	height:500px;
+	height:100vh;
 	background:black;
 }
 
@@ -10,6 +10,12 @@
 *********************************************************************/
 .sectionWeb{
 	background:#59ffcd;
+	opacity:0.5;
+}
+
+.linkWeb{
+	background:black;
+	background:url("../../media/images/Web-design.jpg");
 }
 
 /******************************************************************** 
@@ -17,6 +23,12 @@
 *********************************************************************/
 .sectionGame{
 	background:#eeff3d;
+	opacity:0.5;
+}
+
+.linkGame{
+	background:black;
+	background:url("../../media/images/univers-jeux.jpg");
 }
 
 /******************************************************************** 
@@ -74,8 +86,8 @@ li{
 	color:black;
 }
 
-li:hover{
-	color:blue;
+i{
+	color:black;
 }
 
 .roundEffect1:hover{
