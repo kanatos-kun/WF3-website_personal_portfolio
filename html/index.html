@@ -12,51 +12,129 @@
 <!--************************************************************************************
 								^SectionWeb
 *************************************************************************************-->
-					<section class="col-md-6 sectionWeb">
-						<div class="row">
-								<a href="WB-accueil.html">
-									<article class="col-md-10 linkWeb">
-										<div class="row">
-											<article class="row">
-												<h2>WEB-DEVELOPER</h2>
-												<p>
-													Envie de créer votre site? <span>C'est par ici!</span>
-												</p>
-											</article>
-										</div>
-		<!-- 						||[PUT_YOUR_CONTENT_HERE]||                              -->
-									</article><!--./col-md-6 sectionWeb-->
-								</a>
-								<article class="col-md-2 logo">
-		<!-- 						||[PUT_YOUR_CONTENT_HERE]||                              -->
-								</article>
-						</div><!--./row-fluid-->
-
-					</section><!--/.col-md-6-->
-
+		<div class="row">
+			<section class="col-md-6 sectionWeb">
+				<div class="row">
+					<a href="WB-accueil.html">
+						<article class="col-md-10 linkWeb">
+							<div class="row">
+								<article class="row">
+									<h2>WEB-DEVELOPER</h2>
+									<p>
+										Envie de créer votre site? <span>C'est par ici!</span>
+									</p>
+								</article> <!--./row-->
+							</div><!--./row-->
+						</article><!--./col-md-6 sectionWeb-->
+					</a>
+					<article class="col-md-2"></article><!-- ./col-md-2-->
+				</div><!--./row-fluid-->
+			</section><!--/.col-md-6-->
 <!--************************************************************************************
 								^SectionGame
 *************************************************************************************-->
-					<section class="col-md-6 sectionGame">
+
+		<section class="col-md-6 sectionGame">
+			<div class="row">
+				<div class="col-md-2"></div><!--./col-md-2-->
+				<a href="JV-accueil.html">
+					<article class="col-md-10 linkGame">
 						<div class="row">
-								<div class="col-md-2">
-		<!-- 						||[PUT_YOUR_CONTENT_HERE]||                              -->
-								</div><!--./col-md-6-->
-							<a href="JV-accueil.html">
-								<article class="col-md-10 linkGame">
-									<div class="row">
-										<article class="row">
-											<h2>GAME-DEVELOPER</h2>
-											<p>
-												Envie de jeter un oeil sur mes jeux? <span>C'est par ici!</span>
-											</p>
-										</article>
-									</div>
-								</article><!--./col-md-6 sectionGame-->
-							</a>
-							</div><!--./row-fluid-->
-					</section><!--/.col-md-6-->
-	</main><!--./row-fluid-->
+							<article class="row">
+								<h2>GAME-DEVELOPER</h2>
+								<p>
+									Envie de jeter un oeil sur mes jeux? <span>C'est par ici!</span>
+								</p>
+							</article>
+						</div><!--./row-->
+					</article><!--./col-md-6 sectionGame-->
+				</a>
+			</div><!--./row-->
+		</section><!--/.col-md-6-->
+	</div>
+<!--************************************************************************************
+								^SectionMap
+*************************************************************************************-->
+		<section class="col-md-12 sectionMap">
+		    <h3>Localisation</h3>
+		    <p>
+		    	Vous pouvez me contacter au 3 Grande Rue Charle de Gaulle 89290 Champs-sur-Yonne France.
+		    </p>
+		    <div id="map"></div>
+		    <script>
+		      function initMap() {
+		        var uluru = {lat: 47.735197, lng: 3.600223};
+		        var map = new google.maps.Map(document.getElementById('map'), {
+		          zoom: 10,
+		          center: uluru
+		        });
+		        var marker = new google.maps.Marker({
+		          position: uluru,
+		          map: map
+		        });
+		      }
+		    </script>
+		    <script async defer
+		    src="https://maps.googleapis.com/maps/api/js?AIzaSyCXacIh9Lc841J4vVIktMmkWByudZ8Lk9g=YOUR_API_KEY&callback=initMap">
+		    </script>
+		</section>
+<!--************************************************************************************
+								^SectionForm
+*************************************************************************************-->
+		<section class="col-md-12 sectionForm">
+				<form>
+				  <div class="form-group">
+				  	<div class="col-md-4"></div>
+				    <label for="Name" class="col-md-1">Name</label>
+				    <div class=" col-md-7 ">
+				    	<input type="text" class="form-control" id="Name" placeholder="Jane Doe">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				  	<div class="col-md-4"></div>
+				    <label for="Email" class="col-md-1">Email address</label>
+				    <div class="col-md-7 ">
+				   		 <input type="email" class="form-control" id="Email" placeholder="Email">
+				   	</div>
+				  </div>
+				  <div class="form-group">
+				  	<div class="col-md-4"></div>
+				    <label for="Fonction" class="col-md-1">Fonction</label>
+				    <div class="col-md-7 ">
+			  			  <input type="text" class="form-control" id="Fonction" placeholder="freelance">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				  	<div class="col-md-4"></div>
+				    <label for="Societe" class="col-md-1">Societe</label>
+				    <div class="col-md-7 ">
+			  			  <input type="text" class="form-control" id="Societe" placeholder="ma societe">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				  	<div class="col-md-4"></div>
+				    <label for="Tel" class="col-md-1">Telephone</label>
+				    <div class="col-md-7">
+	                      <input type="tel" class="form-control" id="Tel" placeholder="0x xx xx xx xx">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				  	<div class="col-md-4"></div>
+				    <label for="txt" class="col-md-1">Votre demande</label>
+				    <div class="col-md-7 marg"></div>
+				    <div class="col-md-12">
+	                      <textarea rows="6" cols="50" class="form-control" id="txt"></textarea>
+				    </div>
+				  </div>
+				  <div class="col-md-12">
+					  <button type="submit" class="btn btn-default">Envoyé</button>
+				  </div>
+				</form>
+		</section>
+	</main><!--./row-->
+<!--************************************************************************************
+								^SectionFooter
+*************************************************************************************-->
 	<footer class="row">
 		<section class="col-md-12 sectionFooter">
 			<h2>&#64 2023 by Geoffrey Arnoult</h2>
