@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+/******************************************************************** 
+			             	^navTop
+*********************************************************************/
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.navTop,.navTop>div,.navTop>ul,.navTop>ul>li{
+	height:65px;
+}
+
+.navTop a{
+	height:63px;
+}
+
+.navTop .navbar-nav > li > a{
+	color:#b59d87;
+}
+
+.navTop .btn-default{
+	vertical-align:top;
+	background-color:black;
+	color:white;
+	border:none;
+	padding:0;
+	padding-left:10px;
+	font-size:1.2vw;
+}
+
+.navTop{
+	background:black;
+}
+
+.navTop .nav>.active>a{
+	background: #f04200;
+	color:white;
+}
+
+.barreRecherche{
+	background:black;
+}
