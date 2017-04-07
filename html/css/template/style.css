@@ -17,6 +17,12 @@
 .linkWeb{
 	background:black;
 	background:url("../../media/images/Web-design.jpg");
+    background-size: 100% 100%;
+}
+
+.linkWeb:hover,.linkGame:hover{
+	background-size : 105% 105%;
+	transition : background-size 0.2s linear;
 }
 
 .linkWeb >div{
@@ -31,7 +37,7 @@
 
 .linkWeb>div>article{
 	height:100%;
-	opacity:0;
+	opacity:0.4;
 	margin-right:0;
 }
 
@@ -76,6 +82,7 @@
 .linkGame{
 	background:black;
 	background:url("../../media/images/univers-jeux.jpg");
+    background-size: 100% 100%;
 }
 
 .linkGame >div{
@@ -90,7 +97,7 @@
 
 .linkGame>div>article{
 	height:100%;
-	opacity:0;
+	opacity:0.4;
 	margin-left:0;
 }
 
