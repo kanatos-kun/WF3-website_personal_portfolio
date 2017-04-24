@@ -28,23 +28,23 @@
 .linkWeb >div{
 	height:100%;
 	background:rgba(89,255,255,0.6);
+	transition:background 0.2s linear;
 }
 
 .linkWeb >div:hover{
 	background:rgba(89,255,255,0);
-	transition:background 0.2s linear;
 }
 
 .linkWeb>div>article{
 	height:100%;
 	opacity:0.4;
 	margin-right:0;
+	transition: opacity 0.4s linear,transform 0.2s linear;
 }
 
 .linkWeb>div>article:hover{
 	opacity:0.9;
 	transform:translateY(7vh);
-	transition: opacity 0.4s linear,transform 0.2s linear;
 }
 
 .sectionWeb h2, .sectionWeb p, .sectionGame h2, .sectionGame p{
@@ -88,23 +88,23 @@
 .linkGame >div{
 	height:100%;
 	background:rgba(238,255,61,0.6);
+	transition:background 0.2s linear;
 }
 
 .linkGame >div:hover{
 	background:rgba(238,255,61,0);
-	transition:background 0.2s linear;
 }
 
 .linkGame>div>article{
 	height:100%;
 	opacity:0.4;
 	margin-left:0;
+	transition: opacity 0.4s linear,transform 0.2s linear;
 }
 
 .linkGame>div>article:hover{
 	opacity:0.9;
 	transform:translateY(-7vh);
-	transition: opacity 0.4s linear,transform 0.2s linear;
 }
 
 .sectionGame h2{
