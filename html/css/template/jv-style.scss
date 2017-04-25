@@ -47,11 +47,16 @@ body{
 /******************************************************************** 
 			             	^Carousel
 *********************************************************************/
-
+.myCarousel{
+	position:absolute;
+	left:30%;
+	width:50%;
+    margin: 5px auto;
+}
 
 .myCarousel img{
-	margin:auto;
-	width:50%;
+	width:100%;
+	height:472px;
 }
 
 .slick-dots li.slick-active button::before{

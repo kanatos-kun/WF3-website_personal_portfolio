@@ -37,9 +37,19 @@ body {
 /******************************************************************** 
 			             	^Carousel
 *********************************************************************/
+.flexslider .slides img{
+  width:initial;
+}
+
+/*.myCarousel {
+  position: absolute;
+  left: 30%;
+  width: 50%;
+  margin: 5px auto; }
+
 .myCarousel img {
-  margin: auto;
-  width: 50%; }
+  width: 100%;
+  height: 472px; }
 
 .slick-dots li.slick-active button::before {
   font-size: 30px; }
@@ -51,6 +61,6 @@ body {
   margin: 0 15px; }
 
 .slick-dots {
-  bottom: -40px; }
+  bottom: -40px; }*/
 
 /*# sourceMappingURL=jv-style.css.map */
