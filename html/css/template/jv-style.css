@@ -37,30 +37,62 @@ body {
 /******************************************************************** 
 			             	^Carousel
 *********************************************************************/
-.flexslider .slides img{
-  width:initial;
-}
+.flex-viewport {
+  margin: auto; }
 
-/*.myCarousel {
+.flex-direction-nav a {
+  height: 50px;
+  margin: -20px 20px 0;
+  transition: initial; }
+
+.flex-direction-nav a::before {
+  color: rgba(255, 255, 255, 0.8); }
+
+.flex-caption {
+  background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+  bottom: 0;
+  height: 100px;
+  margin-bottom: 0;
   position: absolute;
-  left: 30%;
-  width: 50%;
-  margin: 5px auto; }
-
-.myCarousel img {
   width: 100%;
-  height: 472px; }
+  color: white; }
 
-.slick-dots li.slick-active button::before {
-  font-size: 30px; }
+.bg-opa:hover {
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s opacity linear; }
 
-.slick-dots li button::before {
-  font-size: 30px; }
+.jsOpa {
+  opacity: 0.7; }
 
-.slick-dots li {
-  margin: 0 15px; }
+.bg-opa:before {
+  z-index: 0; }
 
-.slick-dots {
-  bottom: -40px; }*/
+.bg-opa > img {
+  z-index: 2; }
+
+.bg-opa + .thumbNailTitleOff {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  color: #323232;
+  top: 70px;
+  left: 50px;
+  text-align: center;
+  transform: translateY(40px);
+  transition: transform 0.2s linear,opacity 0.2s,visibility 0.2s; }
+
+.ThumbNailTitle {
+  visibility: visible;
+  position: absolute;
+  z-index: 1;
+  top: 70px;
+  left: 50px;
+  color: #323232;
+  transform: translateY(-40px);
+  opacity: 1;
+  transition: transform 0.2s linear,opacity 0.2s; }
 
 /*# sourceMappingURL=jv-style.css.map */
