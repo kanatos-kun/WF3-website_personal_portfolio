@@ -6,6 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/template/style.css"/>
 	<title>kanatos - Developeur web | jeux</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/indexScript.js"></script>
 </head>
 <body class="container-fluid">
 	<main class="row">
@@ -53,7 +56,7 @@
 <!--************************************************************************************
 								^SectionMap
 *************************************************************************************-->
-		<section class="col-md-12 sectionMap">
+		<section class="col-md-6 sectionMap">
 		    <h3>Localisation</h3>
 		    <p>
 		    	Vous pouvez me contacter au 3 Grande Rue Charle de Gaulle 89290 Champs-sur-Yonne France.
@@ -79,54 +82,34 @@
 <!--************************************************************************************
 								^SectionForm
 *************************************************************************************-->
-		<section class="col-md-12 sectionForm">
+		<section class="col-md-6 sectionForm">
 				<form>
 				  <div class="form-group">
-				  	<div class="col-md-4"></div>
-				    <label for="Name" class="col-md-1">Name</label>
-				    <div class=" col-md-7 ">
+				    <label for="Name">Name</label>
 				    	<input type="text" class="form-control" id="Name" placeholder="Jane Doe">
-				    </div>
 				  </div>
 				  <div class="form-group">
-				  	<div class="col-md-4"></div>
-				    <label for="Email" class="col-md-1">Email address</label>
-				    <div class="col-md-7 ">
+				    <label for="Email">Email address</label>
 				   		 <input type="email" class="form-control" id="Email" placeholder="Email">
-				   	</div>
 				  </div>
 				  <div class="form-group">
-				  	<div class="col-md-4"></div>
-				    <label for="Fonction" class="col-md-1">Fonction</label>
-				    <div class="col-md-7 ">
+				    <label for="Fonction">Fonction</label>
 			  			  <input type="text" class="form-control" id="Fonction" placeholder="freelance">
-				    </div>
 				  </div>
 				  <div class="form-group">
-				  	<div class="col-md-4"></div>
-				    <label for="Societe" class="col-md-1">Societe</label>
-				    <div class="col-md-7 ">
+				    <label for="Societe">Societe</label>
 			  			  <input type="text" class="form-control" id="Societe" placeholder="ma societe">
-				    </div>
 				  </div>
 				  <div class="form-group">
-				  	<div class="col-md-4"></div>
-				    <label for="Tel" class="col-md-1">Telephone</label>
-				    <div class="col-md-7">
+				    <label for="Tel">Telephone</label>
 	                      <input type="tel" class="form-control" id="Tel" placeholder="0x xx xx xx xx">
-				    </div>
 				  </div>
 				  <div class="form-group">
-				  	<div class="col-md-4"></div>
-				    <label for="txt" class="col-md-1">Votre demande</label>
-				    <div class="col-md-7 marg"></div>
-				    <div class="col-md-12">
+				    <label for="txt">Votre demande</label>
+				    <div class="marg"></div>
 	                      <textarea rows="6" cols="50" class="form-control" id="txt"></textarea>
-				    </div>
 				  </div>
-				  <div class="col-md-12">
 					  <button type="submit" class="btn btn-default">Envoyé</button>
-				  </div>
 				</form>
 		</section>
 	</main><!--./row-->

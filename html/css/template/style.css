@@ -130,27 +130,28 @@
 *********************************************************************/
 
 .sectionMap{
-	background:red;
+	background:#0c162d;
 	color:black;
 	text-align:center;
-	padding-bottom:150px;
+	padding-bottom:40px;
 	padding-top:40px;
 }
 
 .sectionMap >#map {
 	height: 400px;
-	width: 40vw;
-	margin-left:30vw;
-	margin-bottom:2vh;
+	width: 100%;
 }
 
+.sectionMap{
+	color:white;
+}
 /******************************************************************** 
 			             	^sectionForm
 *********************************************************************/
 .sectionForm{
-	background:blue;
+	background:#0c162d;
 	color:white;
-	padding-bottom:150px;
+	/*padding-bottom:150px;*/
 }
 
 .sectionForm >form{
@@ -175,7 +176,7 @@
 	margin-left:33vw;
 }
 .sectionForm button{
-	margin-left: 45vw;
+	margin-left: 25vw;
 	display:inline-block;
 	width:74px;
 	height:100%;
