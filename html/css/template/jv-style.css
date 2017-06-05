@@ -59,14 +59,17 @@ body {
 .flex-direction-nav a::before {
   color: rgba(255, 255, 255, 0.8); }
 
-.flex-caption {
-  background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+.flex-caption{
   bottom: 0;
   height: 100px;
   margin-bottom: 0;
   position: absolute;
   width: 100%;
   color: white; }
+
+.flex-active-slide > .flex-caption{
+  background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+}
 
 .bg-opa:hover {
   opacity: 0.7;
