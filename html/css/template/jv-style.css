@@ -1,17 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 
-/******************************************************************** 
-			             	^navTop
-*********************************************************************/
 body {
   font-family: 'Open Sans', sans-serif;
   background: #F0F0F0; }
+/******************************************************************** 
+			             	^navTop
+*********************************************************************/
 
 .navTop, .navTop > div, .navTop > ul, .navTop > ul > li {
-  height: 65px; }
+  /*height: 65px; */
+}
+
+.navTop:after{
+  height:20px;
+}
 
 .navTop a {
-  height: 63px; }
+  /*height: 63px; */
+}
 
 .navTop .navbar-nav > li > a {
   color: #b59d87; }
@@ -23,7 +29,7 @@ body {
   border: none;
   padding: 0;
   padding-left: 10px;
-  font-size: 1.2vw; }
+  font-size: 22px; }
 
 .navTop {
   background: black; }
@@ -34,6 +40,10 @@ body {
 
 .barreRecherche {
   background: black; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color:black;
+}
 
 /******************************************************************** 
 			             	^Carousel
