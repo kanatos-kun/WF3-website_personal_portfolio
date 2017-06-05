@@ -115,3 +115,9 @@ h2{
 .section2>article{
   margin:20px 0 20px;
 }
+
+footer{
+  background:#131211;
+  color:#aaaaaa;
+  padding-top:20px;
+}
