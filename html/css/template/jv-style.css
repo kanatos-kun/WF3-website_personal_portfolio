@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 
-.container{
-  width:1066px;
-}
 /******************************************************************** 
 			             	^navTop
 *********************************************************************/
@@ -74,7 +71,10 @@ body {
   z-index: 0; }
 
 .bg-opa > img {
-  z-index: 2; }
+  z-index: 2; 
+  display:block;
+  margin:auto;
+}
 
 .bg-opa + .thumbNailTitleOff {
   visibility: hidden;
@@ -83,7 +83,7 @@ body {
   opacity: 0;
   color: #323232;
   top: 70px;
-  left: 50px;
+  left: 40%;
   text-align: center;
   transform: translateY(40px);
   transition: transform 0.2s linear,opacity 0.2s,visibility 0.2s; }
@@ -93,8 +93,9 @@ body {
   position: absolute;
   z-index: 1;
   top: 70px;
-  left: 50px;
+  left: 40%;
   color: #323232;
+  text-align: center;
   transform: translateY(-40px);
   opacity: 1;
   transition: transform 0.2s linear,opacity 0.2s; }
