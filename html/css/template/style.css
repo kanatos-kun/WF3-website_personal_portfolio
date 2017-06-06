@@ -4,7 +4,6 @@
 	height:100vh;
 	background:black;
 }
-
 /******************************************************************** 
 			             	^sectionWeb
 *********************************************************************/
@@ -18,6 +17,7 @@
 	background:black;
 	background:url("../../media/images/Web-design.jpg");
     background-size: 100% 100%;
+	transition : background-size 0.2s linear;
 }
 
 .linkWeb:hover,.linkGame:hover{
@@ -83,6 +83,7 @@
 	background:black;
 	background:url("../../media/images/univers-jeux.jpg");
     background-size: 100% 100%;
+	transition : background-size 0.2s linear;
 }
 
 .linkGame >div{
@@ -133,7 +134,7 @@
 	background:#0c162d;
 	color:black;
 	text-align:center;
-	padding-bottom:40px;
+	padding-bottom:304px;
 	padding-top:40px;
 }
 
@@ -197,6 +198,24 @@
 	text-align:center;
 	font-weight:normal;
 	font-size:15px;
+}
+/******************************************************************** 
+			             	^formulaire
+*********************************************************************/
+
+.valid-form{
+	border:1px solid #2dd800;
+	box-shadow:0 0 10px rgba(45, 216, 0, 0.75);
+}
+
+.error-form{
+	border:1px solid #ff2929;
+	box-shadow:0 0 10px rgba(255, 41, 41, 0.75);
+}
+
+.warning-form{
+	border:1px solid #ffdb00;
+	box-shadow:0 0 10px rgba(255, 219, 0, 0.75);
 }
 
 /******************************************************************** 
