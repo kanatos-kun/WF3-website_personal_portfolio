@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+// @import '../../slick/slick.css';
+// @import '../../slick/slick-theme.css';
+/******************************************************************** 
+			             	^navTop
+*********************************************************************/
+$primary-color: #F0F0F0;
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: $primary-color;
+}
+.navTop,.navTop>div,.navTop>ul,.navTop>ul>li{
+	height:65px;
+}
+
+.navTop a{
+	height:63px;
+}
+
+.navTop .navbar-nav > li > a{
+	color:#b59d87;
+}
+
+.navTop .btn-default{
+	vertical-align:top;
+	background-color:black;
+	color:white;
+	border:none;
+	padding:0;
+	padding-left:10px;
+	font-size:1.2vw;
+}
+
+.navTop{
+	background:black;
+}
+
+.navTop .nav>.active>a{
+	background: #f04200;
+	color:white;
+}
+
+.barreRecherche{
+	background:black;
+}
+/******************************************************************** 
+			             	^Carousel
+*********************************************************************/
+.flex-viewport{
+    margin: auto;
+    // width: 50%;
+}
+
+.flex-direction-nav a{
+	height: 50px;
+	margin: -20px 20px 0;
+	transition:initial;
+}
+
+.flex-direction-nav a::before{
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.flex-caption{
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    bottom: 0;
+    height: 100px;
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+    color:white;
+}
+
+.bg-opa:hover{
+	opacity:0.7;
+	width:100%;
+	height:100%;
+	transition:0.3s opacity linear;
+}
+.jsOpa{
+	opacity:0.7;
+}
+.bg-opa:before{
+	z-index:0;
+}
+
+.bg-opa>img{
+	z-index:2;
+}
+
+.bg-opa+.thumbNailTitleOff{
+	visibility:hidden;
+	position:absolute;
+	z-index:1;
+	opacity:0;
+	color:rgb(50,50,50);
+	top:70px;
+	left:50px;
+	text-align:center;
+	transform:translateY(40px);
+	transition:transform 0.2s linear,opacity 0.2s,visibility 0.2s;
+}
+
+.ThumbNailTitle{
+	visibility:visible;
+	position:absolute;
+	z-index:1;
+	top:70px;
+	left:50px;
+	color:rgb(50,50,50);
+	transform:translateY(-40px);
+	opacity:1;
+	transition:transform 0.2s linear,opacity 0.2s;
+}
+// a .flex-prev{
+// 	left:500px;
+// }

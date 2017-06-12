@@ -1,0 +1,246 @@
+/* put your code here*/
+
+.linkGame, .linkWeb, .sectionWeb, .sectionGame{
+	height:100vh;
+	background:black;
+}
+
+/******************************************************************** 
+			             	^sectionWeb
+*********************************************************************/
+
+.sectionWeb{
+	background:#59ffcd;
+	opacity:0.6;
+}
+
+.linkWeb{
+	background:black;
+	background:url("../../media/images/Web-design.jpg");
+    background-size: 100% 100%;
+}
+
+.linkWeb:hover,.linkGame:hover{
+	background-size : 105% 105%;
+	transition : background-size 0.2s linear;
+}
+
+.linkWeb >div{
+	height:100%;
+	background:rgba(89,255,255,0.6);
+	transition:background 0.2s linear;
+}
+
+.linkWeb >div:hover{
+	background:rgba(89,255,255,0);
+}
+
+.linkWeb>div>article{
+	height:100%;
+	opacity:0.4;
+	margin-right:0;
+	transition: opacity 0.4s linear,transform 0.2s linear;
+}
+
+.linkWeb>div>article:hover{
+	opacity:0.9;
+	transform:translateY(7vh);
+}
+
+.sectionWeb h2, .sectionWeb p, .sectionGame h2, .sectionGame p{
+	background:white;
+	color:black;
+	display: inline-block;
+	border: 5px solid black;
+}
+
+.sectionWeb h2{
+	margin-left: 10vw;
+	margin-top: 29vh;
+	padding: 10px;
+	font-size: 40px;
+}
+
+.sectionWeb p{
+	text-align:center;
+	margin-left: 14vw;
+	margin-top: 1vh;
+	padding: 10px;
+}
+
+.sectionWeb span{
+	display:block;
+}
+/******************************************************************** 
+			             	^sectionGame
+*********************************************************************/
+.sectionGame{
+	background:#eeff3d;
+	opacity:0.6;
+}
+
+.linkGame{
+	background:black;
+	background:url("../../media/images/univers-jeux.jpg");
+    background-size: 100% 100%;
+}
+
+.linkGame >div{
+	height:100%;
+	background:rgba(238,255,61,0.6);
+	transition:background 0.2s linear;
+}
+
+.linkGame >div:hover{
+	background:rgba(238,255,61,0);
+}
+
+.linkGame>div>article{
+	height:100%;
+	opacity:0.4;
+	margin-left:0;
+	transition: opacity 0.4s linear,transform 0.2s linear;
+}
+
+.linkGame>div>article:hover{
+	opacity:0.9;
+	transform:translateY(-7vh);
+}
+
+.sectionGame h2{
+	margin-left: 10vw;
+	margin-top: 39vh;
+	padding: 10px;
+	font-size: 40px;
+}
+
+.sectionGame p{
+	text-align:center;
+	margin-left: 14vw;
+	margin-top: 1vh;
+	padding: 10px;
+}
+
+.sectionGame span{
+	display:block;
+}
+
+/******************************************************************** 
+			             	^sectionMap
+*********************************************************************/
+
+.sectionMap{
+	background:#0c162d;
+	color:black;
+	text-align:center;
+	padding-bottom:40px;
+	padding-top:40px;
+}
+
+.sectionMap >#map {
+	height: 400px;
+	width: 100%;
+}
+
+.sectionMap{
+	color:white;
+}
+/******************************************************************** 
+			             	^sectionForm
+*********************************************************************/
+.sectionForm{
+	background:#0c162d;
+	color:white;
+	/*padding-bottom:150px;*/
+}
+
+.sectionForm >form{
+	margin-top:120px;
+}
+
+.sectionForm > form > div > label,.sectionForm > form > div > div{
+	margin-bottom:20px;
+}
+
+.sectionForm > form > div > div.col-md-7{
+	width:28%;
+}
+
+.sectionForm > form > div > div.marg{
+	width:100%;
+	margin-bottom:0;
+}
+.sectionForm > form > div > div.col-md-12{
+	display:block;
+	width:36%;
+	margin-left:33vw;
+}
+.sectionForm button{
+	margin-left: 25vw;
+	display:inline-block;
+	width:74px;
+	height:100%;
+	margin-bottom:25px;
+}
+
+/******************************************************************** 
+			             	^sectionFooter
+*********************************************************************/
+.sectionFooter{
+	height:50px;
+	background:#0f1419;
+	color:white;
+
+}
+
+.sectionFooter h2{
+	text-align:center;
+	font-weight:normal;
+	font-size:15px;
+}
+
+/******************************************************************** 
+			             	^logo
+*********************************************************************/
+ul{
+	position:absolute;
+	width:15px;
+	top:50px;
+	text-align:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	margin-left: 47.7%;
+}
+
+.roundEffect1{
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	background:rgba(255,255,255,0.6);
+}
+
+
+.roundEffect2{
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.7);
+	position: relative;
+	top: 5px;
+}
+
+li{
+	margin-bottom:10px;
+	font-size:40px;
+	color:black;
+}
+
+i{
+	color:black;
+}
+
+li:hover{
+	background: rgba(150,150,150,0.6);
+}

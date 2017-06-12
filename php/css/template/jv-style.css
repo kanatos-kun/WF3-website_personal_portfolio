@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #F0F0F0; }
+/******************************************************************** 
+			             	^navTop
+*********************************************************************/
+
+.navTop:after{
+  height:20px;
+}
+
+.navTop .navbar-nav > li > a {
+  color: #b59d87; }
+
+.navTop .btn-default {
+  vertical-align: top;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0;
+  padding-left: 10px;
+  font-size: 22px; }
+
+.navTop {
+  background: black; }
+
+.navTop .nav > .active > a {
+  background: #f04200;
+  color: white; }
+
+.barreRecherche {
+  background: black; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color:black;
+}
+
+/******************************************************************** 
+			             	^Carousel
+*********************************************************************/
+.flex-viewport {
+  margin: auto; }
+
+.flex-direction-nav a {
+  height: 50px;
+  margin: -20px 20px 0;
+  /*transition: initial; */
+}
+
+.flex-direction-nav a::before {
+  color: rgba(255, 255, 255, 0.8); }
+
+.flex-caption{
+  bottom: 0;
+  height: 100px;
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+  color: white; }
+
+.flex-active-slide > .flex-caption{
+  background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+}
+
+.image-container{
+  position: relative;
+  width: 100%;
+}
+
+.image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.image-container:hover .text-overlay{
+  height: 100%;
+}
+
+.text{
+  white-space: nowrap;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=jv-style.css.map */
+
+/******************************************************************** 
+                    ^section2
+*********************************************************************/
+h2{
+  margin:auto;
+}
+
+.section2{
+  margin-top:20px;
+}
+
+.section2>article{
+  margin:20px 0 20px;
+}
+
+footer{
+  background:#131211;
+  color:#aaaaaa;
+  padding-top:20px;
+}
+
+/******************************************************************** 
+                    ^twitter
+*********************************************************************/
+@media screen and (max-width: 1880px){
+
+.twitter-position{
+  display:none;
+  visibility:hidden;
+}
+
+}
+
+@media screen and (min-width: 1880px){
+
+.twitter-position{
+  visibility:visible;
+  position:absolute;
+  right:8em;
+}
+
+}
