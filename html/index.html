@@ -23,7 +23,7 @@
 						<article class="linkWeb">
 							<div>
 								<article class="row">
-									<h2>WEB-DEVELOPER</h2>
+									<h2>WEB-DEVELOPPER</h2>
 									<p>
 										Envie de créer votre site? <span>C'est par ici!</span>
 									</p>
@@ -43,7 +43,7 @@
 					<article class="linkGame">
 						<div>
 							<article class="row">
-								<h2>GAME-DEVELOPER</h2>
+								<h2>GAME-DEVELOPPER</h2>
 								<p>
 									Envie de jeter un oeil sur mes jeux? <span>C'est par ici!</span>
 								</p>
